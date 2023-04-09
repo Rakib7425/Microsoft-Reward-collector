@@ -13,7 +13,7 @@ random_page_generator = [
     
 
     # 2
-    "T h e","s u n","i s","s h i n i n g","a n d","i t","i s","a f","b e a u t i f u l","d a y","o u t s i d e",".","I","h o p e","y o u","a r e","d o i n g","w e l l","a n d","e n j o y i n g","t h e","d a y",".","D o","y o u","n e e d","a n y","h e l p","t o d a y","?","I","a m","h e r e","t o","a s s i s t","y o u","i n","a n y","w a y","I i","c a n", "T h e"
+    # "T h e","s u n","i s","s h i n i n g","a n d","i t","i s","a f","b e a u t i f u l","d a y","o u t s i d e",".","I","h o p e","y o u","a r e","d o i n g","w e l l","a n d","e n j o y i n g","t h e","d a y",".","D o","y o u","n e e d","a n y","h e l p","t o d a y","?","I","a m","h e r e","t o","a s s i s t","y o u","i n","a n y","w a y","I i","c a n", "T h e"
     
     # 3
     # "q u i c k", "b r o w n", "f o x", "j u m p s", "o v e r", "t h e", "l a z y", "d o g","w i t h", "w h a t e v e r", "y o u", "n e", "e d", "J u s t", "l e t", "m e", "k n o w", "i f", "t h e r e", "i s", "a n y t h i n g", "e l s e", "A", "l i t t l e", "b i r d", "t o l d", "m e", "t h a t", "y o u", "a r e", "l o o k i n g"
@@ -28,8 +28,6 @@ random_page_generator = [
     # " C h a n g e ", " O p p o r t u n i t y ", " S k i l l s ",
     # " S u r v i v e ", " L e a d e r s h i p ", " F r e e d o m ",
     
-    # "hel lo",
-    # "dsijnijfhreih hbdshbub uhsdbfuds"
 ]
 
 
@@ -52,11 +50,11 @@ webbrowser.open(_handbook())
 
 #     for i in range(random_page_generator.__len__()):
 #         url = random_page_generator[i]
-#         chrome_path = "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
-#         webbrowser.register("chrome", None, webbrowser.BackgroundBrowser(chrome_path))
-#         webbrowser.get("chrome").open_new(url)
+#         browser_path = "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"
+#         webbrowser.register("msedge", None, webbrowser.BackgroundBrowser(browser_path))
+#         webbrowser.get("msedge").open_new(url)
 #         time.sleep(10)
 
 #     _exit_code = 1
 
-# webbrowser.open(_handbook())
+# (_handbook())
