@@ -2,14 +2,14 @@ import webbrowser
 import time
 
 random_page_generator = [
-    
+    "he  l lo"
     # 1
-    " H e l l o ", " W o r l d ", " B i n g ", " C h a t ", " M o d e ",
-    " S e a r c h ", " Q u e r y ", " R e s u l t ", " A n g e l ",
-    " N u m b e r ", " F u s i o n ", " R e a c t o r ", " S u n ",
-    " C o r e ", " T e m p e r a t u r e ", " R e c t i f i c a t i o n ",
-    " I n c o m e ", " T a x ", " R e t u r n ", " S p h e n i c ",
-    " N o n a g o n a l ", " S e l f ", " P o s i t i v e ", " H a r d w o r k "," S u c c e s s "," V e r s a t i l i t y "," F l e x i b i l i t y "," H u m i l i t y "
+    # " H e l l o ", " W o r l d ", " B i n g ", " C h a t ", " M o d e ",
+    # " S e a r c h ", " Q u e r y ", " R e s u l t ", " A n g e l ",
+    # " N u m b e r ", " F u s i o n ", " R e a c t o r ", " S u n ",
+    # " C o r e ", " T e m p e r a t u r e ", " R e c t i f i c a t i o n ",
+    # " I n c o m e ", " T a x ", " R e t u r n ", " S p h e n i c ",
+    # " N o n a g o n a l ", " S e l f ", " P o s i t i v e ", " H a r d w o r k "," S u c c e s s "," V e r s a t i l i t y "," F l e x i b i l i t y "," H u m i l i t y "
     
 
     # 2
