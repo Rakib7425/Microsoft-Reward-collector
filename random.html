@@ -48,13 +48,16 @@
 <body>
     <div class='main'>
         <h1>Click the button to open a new window</h1>
-        <a class='btn anyButton' id="btn" target="_blank">Open</a>
+        <a class='btn anyButton' id="btn" onclick="abc()" target="_blank">Open</a>
 
     </div>
     <script>
 
 
-        let btn = document.querySelector('.btn');
+        let btn = document.querySelector('#btn');
+        const abc = () => {
+            window.open("kds");
+        }
         // let IdBtn = document.getElementById('btn');
         // IdBtn.target = '_blank';
 
@@ -71,22 +74,22 @@
                 " N o n a g o n a l ", " S e l f ", " P o s i t i v e ", " H a r d w o r k ", " S u c c e s s ", " V e r s a t i l i t y ", " F l e x i b i l i t y ", " H u m i l i t y "
             ]
 
-            function printWithDelay(array, delay) {
-                array.forEach((element, index) => {
-                    setTimeout(() => {
-                        // console.log(element);
-                        window.open(element);
-                    }, delay * (index + 1));
-                });
-            }
+            // function printWithDelay(array, delay) {
+            //     array.forEach((element, index) => {
+            //         setTimeout(() => {
+            //             // console.log(element);
+            //             window.open(element);
+            //         }, delay * (index + 1));
+            //     });
+            // }
 
-            printWithDelay(array, 1000); // prints elements of array with a delay of 1000ms between each element
+            // printWithDelay(array, 1000); // prints elements of array with a delay of 1000ms between each element
 
             // for (let i = 0; i < random_page_generator.length; i++) {
-            //     setTimeout(() => {
-            //         location.href = (random_page_generator[i]);
-            //         // window.open(random_page_generator[i])
-            //     }, 70);
+            // setTimeout(() => {
+            // location.href = (random_page_generator[i]);
+            // window.open("dhdf dhds")
+            // }, 700);
             // }
         });
     </script>
