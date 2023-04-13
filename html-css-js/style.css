@@ -41,14 +41,15 @@ body {
 
 }
 
-#getReward {
-    background: rgb(16, 222, 181);
-    color: rgb(47, 35, 35);
-}
-
 #wordGen {
     background: rgb(116, 190, 6);
     color: black;
+    margin-top: 10px;
+}
+
+#getReward {
+    background: rgb(118, 18, 141);
+    color: rgb(255, 255, 255);
 }
 
 label {
@@ -70,8 +71,7 @@ label {
 }
 
 .reset {
-    background-color: #4CAF50;
-    /* Green */
+    background-color: #29b82e;
     border: none;
     color: white;
     padding: 5px 10px;
