@@ -65,6 +65,7 @@ label {
 .doc {
     color: white;
     max-width: 80%;
+    margin: 15px;
 }
 
 .reset {

@@ -15,7 +15,7 @@ word.addEventListener('click', () => {
     for (let i = 0; i < noWards; i++) {
         let word = '';
         const letters = 'abcdefghijklmnopqrstuvwxyz';
-        const length = Math.floor(Math.random() * 5) + 5;
+        const length = Math.floor(Math.random() * 3) + 3;
         for (let j = 0; j < length; j++) {
             word += letters.charAt(Math.floor(Math.random() * letters.length));
         }
