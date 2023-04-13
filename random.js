@@ -24,21 +24,22 @@ word.addEventListener('click', () => {
 
 
 // TODO 
-if (array.length <= 1) {
-    getReward.style.pointerEvents="none";
-    getReward.style.backgroundColor = "green";
-} else {
-    getReward.style.cursor="default";
-    getReward.style.background = rgb(6, 171, 146);
-}
+// if (array.length == 0) {
+//     getReward.style.pointerEvents="none";
+//     getReward.style.backgroundColor = "green";
+// } else {
+//     getReward.style.cursor="default";
+//     getReward.style.background = rgb(6, 171, 146);
+// }
 
 
 getReward.addEventListener('click', () => {
 
     var intervalId = setInterval(function () {
-        console.log(array[index]);
+        // console.log(array[index]);
         // window.open("https://www.google.com/search?q=" + array[index]); // Google Chrome
-        // window.open("https://www.bing.com/search?q=" + array[index]); // Microsoft Edge
+
+        window.open("https://www.bing.com/search?q=" + array[index]); // Microsoft Edge
         index++;
         if (index >= array.length) {
             clearInterval(intervalId);
