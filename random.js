@@ -3,8 +3,8 @@ let getReward = document.getElementById('btn');
 let word = document.getElementById('wordGen');
 let doc = document.getElementById('doc');
 
-let array = [];
 
+let array = [];
 
 word.addEventListener('click', () => {
     for (let i = 0; i < 100; i++) {
@@ -26,6 +26,7 @@ getReward.addEventListener('click', ()=>{
         setTimeout(() => {
             console.log(element);
             // window.open("https://www.google.com/search?q=" + element); // Google Chrome
+
             window.open("https://www.bing.com/search?q=" + element); // Microsoft Edge
         }, 5000);
     });
