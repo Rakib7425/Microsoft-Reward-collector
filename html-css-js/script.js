@@ -2,8 +2,8 @@
 let getReward = document.getElementById('getReward');
 let word = document.getElementById('wordGen');
 let div = document.getElementById('doc');
-let noWards = document.getElementById('noward').value;
-console.log(Math.abs(value););
+// let noWards = document.getElementById('noward').value;
+// console.log(Math.abs(value));
 
 let array = [];
 
