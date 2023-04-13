@@ -1,9 +1,11 @@
 body {
     background-color: #272727;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 20%;
+
 }
 
 .main {
@@ -49,12 +51,18 @@ body {
     color: black;
 }
 
-label{
+label {
     color: white;
 }
-#noword{
+
+#noword {
     margin: 10px;
     height: 25px;
-    border-radius: 10px;
-    border: 2px solid rgb(116, 190, 6);
+    border-radius: 4px;
+    border: 2px solid rgb(42, 55, 23);
+}
+
+.doc {
+    color: white;
+    max-width: 80%;
 }
