@@ -45,16 +45,18 @@
     </style>
 </head>
 
-<body>
+<body style="display: flex; flex-direction: column; top: 0;">
+    <div id="doc" class="doc" style="color: white;">
+    </div>
     <div class='main'>
         <h1>Click the button to open a new window</h1>
-        <a class='btn anyButton' id="btn" target="_blank">Get Reward</a>
-        <hr/>
-        <br/>
-        <a class='btn anyButton' id="wordGen" target="_blank">Genarate Random Words</a>
+        <a class='btn anyButton' id="btn" onclick="getReward()" target="_blank">Get Reward</a>
+        <hr />
+        <br />
+        <a class='btn anyButton' id="wordGen">Genarate Random Words</a>
 
     </div>
-    <script>
+    <!-- <script>
 
 
         // let btn = document.querySelector('#btn');
@@ -103,7 +105,7 @@
                 });
             }
 
-            printWithDelay(array, 1000); // prints elements of array with a delay of 1000ms between each element
+            // printWithDelay(array, 1000); // prints elements of array with a delay of 1000ms between each element
 
             // for (let i = 0; i < array.length; i++) {
             //     setTimeout(() => {
@@ -116,7 +118,7 @@
         });
 
     
-    </script>
+    </script> -->
 
     <script src="random.js"></script>
 </body>
