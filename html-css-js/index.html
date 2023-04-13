@@ -5,21 +5,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Random Search</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div id="doc" class="doc" >
+    <div id="reset" class="reset doc">
+        <button type="reset" class="reset">Reset</button>
+    </div>
+    <div id="doc" class="doc">
     </div>
     <div class='main'>
         <h1>Earn Microsoft Reward From One Place</h1>
-
         <label for="noword">Number of words you want ?</label>
-        <input name="noword" type="number" id="noword" placeholder="Number of words you want ?">
+        <input name="noword" class="noword" type="number" id="nowords" required
+            placeholder="Number of words you want ?">
+        <input class='btn anyButton' id="wordGen" type="submit" value="Genarate Random Words"></input>
 
         <!-- <br/> -->
-        <a class='btn anyButton' id="wordGen">Genarate Random Words</a>
+
 
         <br />
 

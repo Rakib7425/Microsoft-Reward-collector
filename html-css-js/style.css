@@ -55,7 +55,7 @@ label {
     color: white;
 }
 
-#noword {
+.noword {
     margin: 10px;
     height: 25px;
     border-radius: 4px;
@@ -65,4 +65,17 @@ label {
 .doc {
     color: white;
     max-width: 80%;
+}
+
+.reset {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
 }

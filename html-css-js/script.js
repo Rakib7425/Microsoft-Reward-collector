@@ -1,16 +1,18 @@
 
 let getReward = document.getElementById('getReward');
 let word = document.getElementById('wordGen');
-let div = document.getElementById('doc');
-// let noWards = document.getElementById('noward').value;
-// console.log(Math.abs(value));
+let arrRes = document.getElementById('doc');
+let reset = document.getElementById('reset');
 
 let array = [];
 
 let index = 0;
 
 word.addEventListener('click', () => {
-    for (let i = 0; i < 10; i++) {
+    let noWards = Math.abs(document.getElementById('nowords').value);
+    console.log(noWards);
+
+    for (let i = 0; i < noWards; i++) {
         let word = '';
         const letters = 'abcdefghijklmnopqrstuvwxyz';
         const length = Math.floor(Math.random() * 5) + 5;
@@ -20,8 +22,10 @@ word.addEventListener('click', () => {
         array.push(`"${word}"`);
     }
 
-    div.innerText = array.join(', ')
+    arrRes.innerText = array.join(', ')
 })
+
+
 
 
 // TODO 
@@ -36,12 +40,13 @@ word.addEventListener('click', () => {
 
 getReward.addEventListener('click', () => {
 
-    var intervalId = setInterval(function () {
+    let intervalId = setInterval(function () {
         // console.log(array[index]);
-        
+
         // window.open("https://www.google.com/search?q=" + array[index]); // Google Chrome
 
         window.open("https://www.bing.com/search?q=" + array[index]); // Microsoft Edge
+        // window.location.replace(window.location + window.location.array[index] + window.location.hash);
 
         index++;
 
@@ -51,4 +56,8 @@ getReward.addEventListener('click', () => {
 
     }, 4000);
 
+})
+
+reset.addEventListener('click', () => {
+    window.location.reload();
 })
