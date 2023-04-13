@@ -93,7 +93,9 @@
                 array.forEach((element, index) => {
                     setTimeout(() => {
                         console.log(element);
-                        window.open("https://www.bing.com/search?q=" + element);
+                        window.open("https://www.google.com/search?q=" + element); // Google Chrome
+
+                        // window.open("https://www.bing.com/search?q=" + element); // Microsoft Edge
                     }, delay * (index + 1));
                 });
             }
