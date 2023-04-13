@@ -40,10 +40,13 @@ getReward.addEventListener('click', () => {
         // window.open("https://www.google.com/search?q=" + array[index]); // Google Chrome
 
         window.open("https://www.bing.com/search?q=" + array[index]); // Microsoft Edge
+
         index++;
+
         if (index >= array.length) {
             clearInterval(intervalId);
         }
-    }, 1000);
+        
+    }, 4000);
 
 })
