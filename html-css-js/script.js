@@ -19,7 +19,8 @@ word.addEventListener('click', () => {
         for (let j = 0; j < length; j++) {
             word += letters.charAt(Math.floor(Math.random() * letters.length));
         }
-        array.push(`"${word}"`);
+        // array.push(`"${word}"`);
+        array.push(`${word}`);
     }
 
     arrRes.innerText = array.join(', ')
