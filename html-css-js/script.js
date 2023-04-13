@@ -10,7 +10,7 @@ let index = 0;
 
 word.addEventListener('click', () => {
     let noWards = Math.abs(document.getElementById('nowords').value);
-    console.log(noWards);
+    // console.log(noWards);
 
     for (let i = 0; i < noWards; i++) {
         let word = '';
@@ -47,7 +47,7 @@ getReward.addEventListener('click', () => {
         // window.open("https://www.google.com/search?q=" + array[index]); // Google Chrome
 
         window.open("https://www.bing.com/search?q=" + array[index]); // Microsoft Edge
-        
+
         // window.location.replace(window.location + window.location.array[index] + window.location.hash);
 
         index++;
