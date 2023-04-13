@@ -38,3 +38,23 @@ body {
     font-size: x-large;
 
 }
+
+#getReward {
+    background: rgb(16, 222, 181);
+    color: rgb(47, 35, 35);
+}
+
+#wordGen {
+    background: rgb(116, 190, 6);
+    color: black;
+}
+
+label{
+    color: white;
+}
+#noword{
+    margin: 10px;
+    height: 25px;
+    border-radius: 10px;
+    border: 2px solid rgb(116, 190, 6);
+}
