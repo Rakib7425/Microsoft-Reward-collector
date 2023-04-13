@@ -1,0 +1,40 @@
+body {
+    background-color: #272727;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+}
+
+.main {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(82, 82, 82);
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.anyButton {
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+
+}

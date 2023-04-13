@@ -37,6 +37,7 @@ getReward.addEventListener('click', () => {
 
     var intervalId = setInterval(function () {
         // console.log(array[index]);
+        
         // window.open("https://www.google.com/search?q=" + array[index]); // Google Chrome
 
         window.open("https://www.bing.com/search?q=" + array[index]); // Microsoft Edge
@@ -46,7 +47,7 @@ getReward.addEventListener('click', () => {
         if (index >= array.length) {
             clearInterval(intervalId);
         }
-        
+
     }, 4000);
 
 })

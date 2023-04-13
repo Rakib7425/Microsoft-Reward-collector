@@ -5,50 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Randon Search</title>
-
-    <style>
-        body {
-            background-color: #272727;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-top: 20%;
-        }
-
-        .main {
-            width: 50%;
-            height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            flex-direction: column;
-            background-color: rgb(82, 82, 82);
-            margin: 10px;
-            font-family: 'Roboto', sans-serif;
-        }
-
-        .btn {
-            width: 100%;
-            height: 50px;
-            background-color: rgb(29, 29, 29);
-            color: white;
-            font-size: 20px;
-            border: none;
-            cursor: pointer;
-        }
-
-        .anyButton {
-            height: 40px;
-            
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: x-large;
-
-        }
-    </style>
+    <title>Random Search</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body style="display: flex; flex-direction: column;">
@@ -56,10 +14,19 @@
     </div>
     <div class='main'>
         <h1>Click the button to open a new window</h1>
-        <a class='btn anyButton' id="getReward" target="_blank" style="background: rgb(16, 222, 181); color: rgb(47, 35, 35);">Get Reward</a>
+        <a class='btn anyButton' id="getReward" target="_blank"
+            style="background: rgb(16, 222, 181); color: rgb(47, 35, 35);">Get Reward</a>
+        <hr />
         <hr />
         <br />
-        <a class='btn anyButton' id="wordGen" style="background: rgb(116, 190, 6); color: black;">Genarate Random Words</a>
+        <label for="inp" class="inp">
+            <input type="text" id="inp" placeholder="&nbsp;">
+            <span class="label">Label</span>
+            <span class="focus-bg"></span>
+        </label>
+        <br />
+        <a class='btn anyButton' id="wordGen" style="background: rgb(116, 190, 6); color: black;">Genarate Random
+            Words</a>
 
     </div>
 
