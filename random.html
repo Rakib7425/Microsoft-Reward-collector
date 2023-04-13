@@ -48,56 +48,66 @@
 <body>
     <div class='main'>
         <h1>Click the button to open a new window</h1>
-        <a class='btn anyButton' id="btn" onclick="abc()" target="_blank">Open</a>
+        <a class='btn anyButton' id="btn" target="_blank">Open</a>
 
     </div>
     <script>
 
 
-        let btn = document.querySelector('#btn');
-        const abc = () => {
-            window.open("kds");
-        }
+        // let btn = document.querySelector('#btn');
+        // const abc = () => {
+        //     window.open("kds" + " ff ");
+        // }
+
         // let IdBtn = document.getElementById('btn');
         // IdBtn.target = '_blank';
 
         btn.addEventListener('click', () => {
 
             const array = [
-                // 'https://stackoverflow.com/questions/2892595/loop-through-array-print-with-string',
-                " H e l l o ", " W o r l d ", " B i n g ", " C h a t ", " M o d e ",
-                " S e a r c h ", " Q u e r y ", " R e s u l t ", " A n g e l ",
-                " N u m b e r ", " F u s i o n ", " R e a c t o r ", " S u n ",
-                " C o r e ", " T e m p e r a t u r e ", " R e c t i f i c a t i o n ",
-                " I n c o m e ", " T a x ", " R e t u r n ", " S p h e n i c ",
-                " N o n a g o n a l ", " S e l f ", " P o s i t i v e ", " H a r d w o r k ", " S u c c e s s ", " V e r s a t i l i t y ", " F l e x i b i l i t y ", " H u m i l i t y "
+
+                // 1,
+
+                // "aberration", "aloof", "amalgam", "ambivalent", "anomaly", "apathy",
+                //  "arcane", "avarice", "banal", "benign", "bolster", "candid", "capitulate", 
+                //  "caustic", "chasm", "clandestine", "coerce", "complacent", "concise", "conundrum", "corroborate", "cryptic", "cumbersome", "debase", "debunk", "deferential", "deft", "depict", "deride", "deter", "diatribe", "dichotomy", "dilemma", "disparage", "divergent", "docile"
+
+
+                //  2,
+                //  "duplicity", "eclectic", "elusive", "empathy", "enigma", "ephemeral", "equivocal", "erudite", "euphemism", "evanescent", "exacerbate", "exemplary", "exonerate", "expedient", "extraneous", "fastidious", "fervor", "flippant", "furtive", "garrulous", "gregarious", "hackneyed", "hapless", "harbinger", "hedonistic", "heresy", "idiosyncrasy", "ignominy", "illicit", "imperative", "impetuous", "inane", "incendiary", "incessant", "incongruous", "indifferent", "indolent", "ineffable", "inherent", "innocuous", "insatiable", "insidious", "intrepid", "inveterate", "jaded", "jocular", "judicious", "languid", "larceny", "lethargic", "lithe", "loquacious"
+
+                //  3,
+                // "malleable", "maverick", "mercurial", "meticulous", "mitigate", "modicum", "morose", "myriad", "nebulous", "nonchalant", "nostalgia", "nuance", "obfuscate", "oblivion", "ominous", "opulent", "ostentatious", "ostracize", "palatable", "paradox", "pedantic", "perfunctory", "peripheral", "pernicious", "pertinent", "petulant", "phenomenon", "piquant", "platitude", "plebeian", "portent", "precarious", "preponderance", "presumptuous", "proclivity", "prodigal", "profound", "prosaic", "prudent", "quandary", "quell", "quixotic", "rancor"
+
+                // 4,
+                //  "rebuff", "recalcitrant", "recluse", "relegate", "remiss", "reprehensible", "resilient", "resolute", "reticent", "reverie", "rhetoric", "sanctimonious", "sanguine", "satiate", "scrupulous", "sedentary", "serendipity", "shibboleth", "soporific", "sporadic", "stoic", "strident", "subterfuge", "surreptitious", "sycophant", "taciturn", "tawdry", "tenacity", "tenuous", "timorous", "tirade", "torpid", "travesty", "trepidation", "truculent", "ubiquitous", "uncanny", "unfettered", "unorthodox", "unrequited", "unsavory", "untoward", "urbane", "usurp", "vacuous", "venerable", "veracity", "vicarious"
+
+                // 5,,,
+
+                "wistful", "wry", "xenophobia", "yearning", "zealot", "abstemious", "cajole", "catharsis", "deleterious", "didactic", "disparate", "disingenuous", "ecumenical", "emulate", "esoteric", "expunge", "fallacious", "feckless", "glib", "histrionic", "effervescent", "obtuse", "juxtapose", "plethora", "quintessential", "vindictive", "virulent"
+
+
             ]
 
-            // function printWithDelay(array, delay) {
-            //     array.forEach((element, index) => {
-            //         setTimeout(() => {
-            //             // console.log(element);
-            //             window.open(element);
-            //         }, delay * (index + 1));
-            //     });
+            function printWithDelay(array, delay) {
+                array.forEach((element, index) => {
+                    setTimeout(() => {
+                        console.log(element);
+                        window.open("https://www.bing.com/search?q=" + element);
+                    }, delay * (index + 1));
+                });
+            }
+
+            printWithDelay(array, 1000); // prints elements of array with a delay of 1000ms between each element
+
+            // for (let i = 0; i < array.length; i++) {
+            //     setTimeout(() => {
+            //         // location.href = (array[i]);
+            //         window.open(array[i])
+            //     }, 700);
             // }
 
-            // printWithDelay(array, 1000); // prints elements of array with a delay of 1000ms between each element
 
-
-
-
-
-
-
-
-
-            // for (let i = 0; i < random_page_generator.length; i++) {
-            // setTimeout(() => {
-            // location.href = (random_page_generator[i]);
-            // window.open("dhdf dhds")
-            // }, 700);
-            // }
         });
     </script>
 </body>
