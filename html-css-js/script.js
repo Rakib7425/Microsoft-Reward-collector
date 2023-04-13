@@ -47,6 +47,7 @@ getReward.addEventListener('click', () => {
         // window.open("https://www.google.com/search?q=" + array[index]); // Google Chrome
 
         window.open("https://www.bing.com/search?q=" + array[index]); // Microsoft Edge
+        
         // window.location.replace(window.location + window.location.array[index] + window.location.hash);
 
         index++;
